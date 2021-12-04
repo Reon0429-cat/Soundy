@@ -24,15 +24,10 @@ extension MusicPlayer {
         MusicPlayer(name: "MusicBox"),
         MusicPlayer(name: "Flexatone"),
         MusicPlayer(name: "Vibraslap"),
-        
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
-        MusicPlayer(name: "Vibraslap"),
+        MusicPlayer(name: "Glocken"),
+        MusicPlayer(name: "Xylophone"),
+        MusicPlayer(name: "Hyoshigi"),
+        MusicPlayer(name: "Horagai"),
     ]
     
 }

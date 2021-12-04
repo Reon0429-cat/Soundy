@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB6D5433275BB3A8004C3061 /* Glocken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5432275BB3A8004C3061 /* Glocken.mp3 */; };
+		AB6D5435275BC466004C3061 /* Xylophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5434275BC466004C3061 /* Xylophone.mp3 */; };
+		AB6D5437275BC472004C3061 /* Hyoshigi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5436275BC472004C3061 /* Hyoshigi.mp3 */; };
+		AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5438275BC478004C3061 /* Horagai.mp3 */; };
 		ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4D275A40D700173138 /* AppDelegate.swift */; };
 		ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4F275A40D700173138 /* SceneDelegate.swift */; };
 		ABE27B57275A40D900173138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE27B56275A40D900173138 /* Assets.xcassets */; };
@@ -50,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB6D5432275BB3A8004C3061 /* Glocken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Glocken.mp3; sourceTree = "<group>"; };
+		AB6D5434275BC466004C3061 /* Xylophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Xylophone.mp3; sourceTree = "<group>"; };
+		AB6D5436275BC472004C3061 /* Hyoshigi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hyoshigi.mp3; sourceTree = "<group>"; };
+		AB6D5438275BC478004C3061 /* Horagai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horagai.mp3; sourceTree = "<group>"; };
 		ABE27B4A275A40D700173138 /* Soundy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE27B4D275A40D700173138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE27B4F275A40D700173138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -197,6 +205,10 @@
 				ABE27BA3275A4E8900173138 /* MusicBox.mp3 */,
 				ABE27BA5275A532B00173138 /* Flexatone.mp3 */,
 				ABE27BA7275A53CA00173138 /* Vibraslap.mp3 */,
+				AB6D5432275BB3A8004C3061 /* Glocken.mp3 */,
+				AB6D5434275BC466004C3061 /* Xylophone.mp3 */,
+				AB6D5436275BC472004C3061 /* Hyoshigi.mp3 */,
+				AB6D5438275BC478004C3061 /* Horagai.mp3 */,
 			);
 			path = SoundSource;
 			sourceTree = "<group>";
@@ -307,9 +319,13 @@
 			files = (
 				ABE27B9C275A460E00173138 /* MusicCollectionViewCell.xib in Resources */,
 				ABE27BA4275A4E8900173138 /* MusicBox.mp3 in Resources */,
+				AB6D5437275BC472004C3061 /* Hyoshigi.mp3 in Resources */,
+				AB6D5435275BC466004C3061 /* Xylophone.mp3 in Resources */,
+				AB6D5433275BB3A8004C3061 /* Glocken.mp3 in Resources */,
 				ABE27B5A275A40D900173138 /* LaunchScreen.storyboard in Resources */,
 				ABE27BA6275A532B00173138 /* Flexatone.mp3 in Resources */,
 				ABE27B57275A40D900173138 /* Assets.xcassets in Resources */,
+				AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */,
 				ABE27B81275A429B00173138 /* MusicPlayground.storyboard in Resources */,
 				ABE27BA8275A53CA00173138 /* Vibraslap.mp3 in Resources */,
 			);
