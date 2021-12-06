@@ -11,6 +11,13 @@
 		AB6D5435275BC466004C3061 /* Xylophone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5434275BC466004C3061 /* Xylophone.mp3 */; };
 		AB6D5437275BC472004C3061 /* Hyoshigi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5436275BC472004C3061 /* Hyoshigi.mp3 */; };
 		AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5438275BC478004C3061 /* Horagai.mp3 */; };
+		AB6D54B7275E4158004C3061 /* Shinkansen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54B6275E4158004C3061 /* Shinkansen.mp3 */; };
+		AB6D54B9275E4188004C3061 /* Ambulance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54B8275E4188004C3061 /* Ambulance.mp3 */; };
+		AB6D54BB275E41E0004C3061 /* Warbler.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54BA275E41DF004C3061 /* Warbler.mp3 */; };
+		AB6D54BD275E41E8004C3061 /* Cat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54BC275E41E8004C3061 /* Cat.mp3 */; };
+		AB6D54C1275E41F8004C3061 /* Cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C0275E41F8004C3061 /* Cow.mp3 */; };
+		AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C2275E4201004C3061 /* Mosquito.mp3 */; };
+		AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C4275E420B004C3061 /* Sparrow.mp3 */; };
 		ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4D275A40D700173138 /* AppDelegate.swift */; };
 		ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4F275A40D700173138 /* SceneDelegate.swift */; };
 		ABE27B57275A40D900173138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE27B56275A40D900173138 /* Assets.xcassets */; };
@@ -58,6 +65,13 @@
 		AB6D5434275BC466004C3061 /* Xylophone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Xylophone.mp3; sourceTree = "<group>"; };
 		AB6D5436275BC472004C3061 /* Hyoshigi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hyoshigi.mp3; sourceTree = "<group>"; };
 		AB6D5438275BC478004C3061 /* Horagai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Horagai.mp3; sourceTree = "<group>"; };
+		AB6D54B6275E4158004C3061 /* Shinkansen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Shinkansen.mp3; sourceTree = "<group>"; };
+		AB6D54B8275E4188004C3061 /* Ambulance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ambulance.mp3; sourceTree = "<group>"; };
+		AB6D54BA275E41DF004C3061 /* Warbler.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Warbler.mp3; sourceTree = "<group>"; };
+		AB6D54BC275E41E8004C3061 /* Cat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cat.mp3; sourceTree = "<group>"; };
+		AB6D54C0275E41F8004C3061 /* Cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cow.mp3; sourceTree = "<group>"; };
+		AB6D54C2275E4201004C3061 /* Mosquito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mosquito.mp3; sourceTree = "<group>"; };
+		AB6D54C4275E420B004C3061 /* Sparrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sparrow.mp3; sourceTree = "<group>"; };
 		ABE27B4A275A40D700173138 /* Soundy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE27B4D275A40D700173138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE27B4F275A40D700173138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -209,6 +223,13 @@
 				AB6D5434275BC466004C3061 /* Xylophone.mp3 */,
 				AB6D5436275BC472004C3061 /* Hyoshigi.mp3 */,
 				AB6D5438275BC478004C3061 /* Horagai.mp3 */,
+				AB6D54B6275E4158004C3061 /* Shinkansen.mp3 */,
+				AB6D54B8275E4188004C3061 /* Ambulance.mp3 */,
+				AB6D54BA275E41DF004C3061 /* Warbler.mp3 */,
+				AB6D54BC275E41E8004C3061 /* Cat.mp3 */,
+				AB6D54C0275E41F8004C3061 /* Cow.mp3 */,
+				AB6D54C2275E4201004C3061 /* Mosquito.mp3 */,
+				AB6D54C4275E420B004C3061 /* Sparrow.mp3 */,
 			);
 			path = SoundSource;
 			sourceTree = "<group>";
@@ -317,15 +338,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6D54B9275E4188004C3061 /* Ambulance.mp3 in Resources */,
 				ABE27B9C275A460E00173138 /* MusicCollectionViewCell.xib in Resources */,
 				ABE27BA4275A4E8900173138 /* MusicBox.mp3 in Resources */,
 				AB6D5437275BC472004C3061 /* Hyoshigi.mp3 in Resources */,
 				AB6D5435275BC466004C3061 /* Xylophone.mp3 in Resources */,
+				AB6D54BD275E41E8004C3061 /* Cat.mp3 in Resources */,
 				AB6D5433275BB3A8004C3061 /* Glocken.mp3 in Resources */,
 				ABE27B5A275A40D900173138 /* LaunchScreen.storyboard in Resources */,
 				ABE27BA6275A532B00173138 /* Flexatone.mp3 in Resources */,
+				AB6D54C1275E41F8004C3061 /* Cow.mp3 in Resources */,
+				AB6D54B7275E4158004C3061 /* Shinkansen.mp3 in Resources */,
+				AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */,
+				AB6D54BB275E41E0004C3061 /* Warbler.mp3 in Resources */,
 				ABE27B57275A40D900173138 /* Assets.xcassets in Resources */,
 				AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */,
+				AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */,
 				ABE27B81275A429B00173138 /* MusicPlayground.storyboard in Resources */,
 				ABE27BA8275A53CA00173138 /* Vibraslap.mp3 in Resources */,
 			);

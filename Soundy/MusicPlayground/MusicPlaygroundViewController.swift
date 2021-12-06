@@ -82,7 +82,6 @@ extension MusicPlaygroundViewController: UICollectionViewDelegateFlowLayout {
 private extension MusicPlaygroundViewController {
     
     func setupCollectionView() {
-        collectionView.backgroundColor = .red
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.registerCustomCell(MusicCollectionViewCell.self)

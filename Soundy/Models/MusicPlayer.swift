@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import UIKit
 
 protocol MusicPlayerable {
     var name: String { get }
@@ -28,6 +27,13 @@ extension MusicPlayer {
         MusicPlayer(name: "Xylophone"),
         MusicPlayer(name: "Hyoshigi"),
         MusicPlayer(name: "Horagai"),
+        MusicPlayer(name: "Shinkansen"),
+        MusicPlayer(name: "Ambulance"),
+        MusicPlayer(name: "Warbler"),
+        MusicPlayer(name: "Cat"),
+        MusicPlayer(name: "Cow"),
+        MusicPlayer(name: "Mosquito"),
+        MusicPlayer(name: "Sparrow"),
     ]
     
 }
