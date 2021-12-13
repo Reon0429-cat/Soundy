@@ -18,6 +18,11 @@
 		AB6D54C1275E41F8004C3061 /* Cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C0275E41F8004C3061 /* Cow.mp3 */; };
 		AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C2275E4201004C3061 /* Mosquito.mp3 */; };
 		AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C4275E420B004C3061 /* Sparrow.mp3 */; };
+		AB6D550B2766FD02004C3061 /* ParentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D550A2766FD02004C3061 /* ParentControlViewController.swift */; };
+		AB6D550D2766FD09004C3061 /* ParentControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6D550C2766FD09004C3061 /* ParentControl.storyboard */; };
+		AB6D5510276700C8004C3061 /* ParentControlUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D550F276700C8004C3061 /* ParentControlUseCase.swift */; };
+		AB6D551327670117004C3061 /* ParentControlRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D551227670117004C3061 /* ParentControlRepository.swift */; };
+		AB6D5516276701AD004C3061 /* ParentControlDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */; };
 		ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4D275A40D700173138 /* AppDelegate.swift */; };
 		ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4F275A40D700173138 /* SceneDelegate.swift */; };
 		ABE27B57275A40D900173138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE27B56275A40D900173138 /* Assets.xcassets */; };
@@ -72,6 +77,11 @@
 		AB6D54C0275E41F8004C3061 /* Cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cow.mp3; sourceTree = "<group>"; };
 		AB6D54C2275E4201004C3061 /* Mosquito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mosquito.mp3; sourceTree = "<group>"; };
 		AB6D54C4275E420B004C3061 /* Sparrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sparrow.mp3; sourceTree = "<group>"; };
+		AB6D550A2766FD02004C3061 /* ParentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlViewController.swift; sourceTree = "<group>"; };
+		AB6D550C2766FD09004C3061 /* ParentControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParentControl.storyboard; sourceTree = "<group>"; };
+		AB6D550F276700C8004C3061 /* ParentControlUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlUseCase.swift; sourceTree = "<group>"; };
+		AB6D551227670117004C3061 /* ParentControlRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlRepository.swift; sourceTree = "<group>"; };
+		AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlDataStore.swift; sourceTree = "<group>"; };
 		ABE27B4A275A40D700173138 /* Soundy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE27B4D275A40D700173138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE27B4F275A40D700173138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +136,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB6D55092766FC89004C3061 /* ParentControl */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D550A2766FD02004C3061 /* ParentControlViewController.swift */,
+				AB6D550C2766FD09004C3061 /* ParentControl.storyboard */,
+			);
+			path = ParentControl;
+			sourceTree = "<group>";
+		};
+		AB6D550E27670094004C3061 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D550F276700C8004C3061 /* ParentControlUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		AB6D551127670107004C3061 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D551227670117004C3061 /* ParentControlRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		AB6D5514276701A3004C3061 /* DataStores */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */,
+			);
+			path = DataStores;
+			sourceTree = "<group>";
+		};
+		AB6D551727670235004C3061 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		ABE27B41275A40D700173138 = {
 			isa = PBXGroup;
 			children = (
@@ -149,9 +199,14 @@
 		ABE27B4C275A40D700173138 /* Soundy */ = {
 			isa = PBXGroup;
 			children = (
+				ABE27BA1275A4BF700173138 /* Entities */,
+				AB6D5514276701A3004C3061 /* DataStores */,
+				AB6D551127670107004C3061 /* Repositories */,
+				AB6D550E27670094004C3061 /* UseCases */,
 				ABE27BA2275A4E7500173138 /* SoundSource */,
-				ABE27BA1275A4BF700173138 /* Models */,
+				AB6D55092766FC89004C3061 /* ParentControl */,
 				ABE27B7D275A423900173138 /* MusicPlayground */,
+				AB6D551727670235004C3061 /* Setting */,
 				ABE27B4D275A40D700173138 /* AppDelegate.swift */,
 				ABE27B4F275A40D700173138 /* SceneDelegate.swift */,
 				ABE27B56275A40D900173138 /* Assets.xcassets */,
@@ -205,12 +260,12 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		ABE27BA1275A4BF700173138 /* Models */ = {
+		ABE27BA1275A4BF700173138 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
 				ABE27B9D275A47D600173138 /* MusicPlayer.swift */,
 			);
-			path = Models;
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		ABE27BA2275A4E7500173138 /* SoundSource */ = {
@@ -352,6 +407,7 @@
 				AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */,
 				AB6D54BB275E41E0004C3061 /* Warbler.mp3 in Resources */,
 				ABE27B57275A40D900173138 /* Assets.xcassets in Resources */,
+				AB6D550D2766FD09004C3061 /* ParentControl.storyboard in Resources */,
 				AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */,
 				AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */,
 				ABE27B81275A429B00173138 /* MusicPlayground.storyboard in Resources */,
@@ -383,15 +439,19 @@
 				ABE27B9E275A47D600173138 /* MusicPlayer.swift in Sources */,
 				ABE27B7F275A429600173138 /* MusicPlaygroundViewController.swift in Sources */,
 				ABE27B98275A455E00173138 /* UICollectionViewCell+Extension.swift in Sources */,
+				AB6D551327670117004C3061 /* ParentControlRepository.swift in Sources */,
 				ABE27B96275A455E00173138 /* UIColor+Extension.swift in Sources */,
 				ABE27B92275A455E00173138 /* UITableViewCell+Extension.swift in Sources */,
 				ABE27B9B275A460E00173138 /* MusicCollectionViewCell.swift in Sources */,
 				ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */,
 				ABE27BA0275A482600173138 /* NSObjectProtocol+Extension.swift in Sources */,
+				AB6D5516276701AD004C3061 /* ParentControlDataStore.swift in Sources */,
+				AB6D5510276700C8004C3061 /* ParentControlUseCase.swift in Sources */,
 				ABE27B97275A455E00173138 /* UICollectionView+Extension.swift in Sources */,
 				ABE27B8F275A455E00173138 /* UIViewController+Extension.swift in Sources */,
 				ABE27B94275A455E00173138 /* UITableView+Extension.swift in Sources */,
 				ABE27B95275A455E00173138 /* UIImage+Extension.swift in Sources */,
+				AB6D550B2766FD02004C3061 /* ParentControlViewController.swift in Sources */,
 				ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+final class ParentControlDataStore {
+    
+    func shuffleCards() {
+        // MARK: - ToDo シャッフル機能
+    }
+    
+}
