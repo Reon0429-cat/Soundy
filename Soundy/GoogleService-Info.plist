@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>221490343928-g0dol4083kbt45ascvcrhtd64d3el53v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.221490343928-g0dol4083kbt45ascvcrhtd64d3el53v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBe6k6No3mxEcMO7r4fdN_CLWvrUWJWSU8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>221490343928</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>oonishireon.Soundy</string>
+	<key>PROJECT_ID</key>
+	<string>soundy-c1b76</string>
+	<key>STORAGE_BUCKET</key>
+	<string>soundy-c1b76.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:221490343928:ios:062ba34cb8965d2157f00d</string>
+</dict>
+</plist>
