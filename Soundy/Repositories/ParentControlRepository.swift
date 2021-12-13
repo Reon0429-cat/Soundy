@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol ParentControlRepositoryProtocol {
+    func shuffleCards()
+}
+
+final class ParentControlRepository: ParentControlRepositoryProtocol {
+    
+    private let dataStore = ParentControlDataStore()
+    
+    func shuffleCards() {
+        dataStore.shuffleCards()
+    }
+    
+}
