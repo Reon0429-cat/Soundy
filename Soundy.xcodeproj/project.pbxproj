@@ -27,6 +27,18 @@
 		AB6D551327670117004C3061 /* ParentControlRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D551227670117004C3061 /* ParentControlRepository.swift */; };
 		AB6D5516276701AD004C3061 /* ParentControlDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */; };
 		AB6D5519276704CC004C3061 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5518276704CC004C3061 /* GoogleService-Info.plist */; };
+		AB9503FD2768DF6F00D1B3FA /* BicycleHorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9503FC2768DF6F00D1B3FA /* BicycleHorn.mp3 */; };
+		AB95040A2768DFD800D1B3FA /* PooPooCushion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9503FE2768DFD700D1B3FA /* PooPooCushion.mp3 */; };
+		AB95040B2768DFD800D1B3FA /* QuizBuzzer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9503FF2768DFD700D1B3FA /* QuizBuzzer.mp3 */; };
+		AB95040C2768DFD800D1B3FA /* CellPhoneRingtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504002768DFD700D1B3FA /* CellPhoneRingtone.mp3 */; };
+		AB95040D2768DFD800D1B3FA /* RotaryPhoneRingtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504012768DFD700D1B3FA /* RotaryPhoneRingtone.mp3 */; };
+		AB95040E2768DFD800D1B3FA /* CameraFilm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504022768DFD700D1B3FA /* CameraFilm.mp3 */; };
+		AB95040F2768DFD800D1B3FA /* CashRegisterDrawer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504032768DFD700D1B3FA /* CashRegisterDrawer.mp3 */; };
+		AB9504102768DFD800D1B3FA /* Eraser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504042768DFD700D1B3FA /* Eraser.mp3 */; };
+		AB9504112768DFD800D1B3FA /* Hurooke.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504052768DFD700D1B3FA /* Hurooke.mp3 */; };
+		AB9504122768DFD800D1B3FA /* Pencil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504062768DFD700D1B3FA /* Pencil.mp3 */; };
+		AB9504132768DFD800D1B3FA /* ClockSecondHand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504072768DFD700D1B3FA /* ClockSecondHand.mp3 */; };
+		AB9504152768DFD800D1B3FA /* Curtain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504092768DFD700D1B3FA /* Curtain.mp3 */; };
 		ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4D275A40D700173138 /* AppDelegate.swift */; };
 		ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4F275A40D700173138 /* SceneDelegate.swift */; };
 		ABE27B57275A40D900173138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE27B56275A40D900173138 /* Assets.xcassets */; };
@@ -91,6 +103,18 @@
 		AB6D551227670117004C3061 /* ParentControlRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlRepository.swift; sourceTree = "<group>"; };
 		AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlDataStore.swift; sourceTree = "<group>"; };
 		AB6D5518276704CC004C3061 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB9503FC2768DF6F00D1B3FA /* BicycleHorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BicycleHorn.mp3; sourceTree = "<group>"; };
+		AB9503FE2768DFD700D1B3FA /* PooPooCushion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PooPooCushion.mp3; sourceTree = "<group>"; };
+		AB9503FF2768DFD700D1B3FA /* QuizBuzzer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = QuizBuzzer.mp3; sourceTree = "<group>"; };
+		AB9504002768DFD700D1B3FA /* CellPhoneRingtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CellPhoneRingtone.mp3; sourceTree = "<group>"; };
+		AB9504012768DFD700D1B3FA /* RotaryPhoneRingtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RotaryPhoneRingtone.mp3; sourceTree = "<group>"; };
+		AB9504022768DFD700D1B3FA /* CameraFilm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CameraFilm.mp3; sourceTree = "<group>"; };
+		AB9504032768DFD700D1B3FA /* CashRegisterDrawer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CashRegisterDrawer.mp3; sourceTree = "<group>"; };
+		AB9504042768DFD700D1B3FA /* Eraser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Eraser.mp3; sourceTree = "<group>"; };
+		AB9504052768DFD700D1B3FA /* Hurooke.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hurooke.mp3; sourceTree = "<group>"; };
+		AB9504062768DFD700D1B3FA /* Pencil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pencil.mp3; sourceTree = "<group>"; };
+		AB9504072768DFD700D1B3FA /* ClockSecondHand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ClockSecondHand.mp3; sourceTree = "<group>"; };
+		AB9504092768DFD700D1B3FA /* Curtain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Curtain.mp3; sourceTree = "<group>"; };
 		ABE27B4A275A40D700173138 /* Soundy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE27B4D275A40D700173138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE27B4F275A40D700173138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -163,7 +187,6 @@
 				AAC47BE34B3FA7E2A3619598 /* Pods-SoundyTests.debug.xcconfig */,
 				FECD6FB5A9A295C1CB0BF85B /* Pods-SoundyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -329,6 +352,18 @@
 				AB6D54C0275E41F8004C3061 /* Cow.mp3 */,
 				AB6D54C2275E4201004C3061 /* Mosquito.mp3 */,
 				AB6D54C4275E420B004C3061 /* Sparrow.mp3 */,
+				AB9503FC2768DF6F00D1B3FA /* BicycleHorn.mp3 */,
+				AB9504022768DFD700D1B3FA /* CameraFilm.mp3 */,
+				AB9504032768DFD700D1B3FA /* CashRegisterDrawer.mp3 */,
+				AB9504002768DFD700D1B3FA /* CellPhoneRingtone.mp3 */,
+				AB9504072768DFD700D1B3FA /* ClockSecondHand.mp3 */,
+				AB9504092768DFD700D1B3FA /* Curtain.mp3 */,
+				AB9504042768DFD700D1B3FA /* Eraser.mp3 */,
+				AB9504052768DFD700D1B3FA /* Hurooke.mp3 */,
+				AB9504062768DFD700D1B3FA /* Pencil.mp3 */,
+				AB9503FE2768DFD700D1B3FA /* PooPooCushion.mp3 */,
+				AB9503FF2768DFD700D1B3FA /* QuizBuzzer.mp3 */,
+				AB9504012768DFD700D1B3FA /* RotaryPhoneRingtone.mp3 */,
 			);
 			path = SoundSource;
 			sourceTree = "<group>";
@@ -444,23 +479,35 @@
 			files = (
 				AB6D54B9275E4188004C3061 /* Ambulance.mp3 in Resources */,
 				ABE27B9C275A460E00173138 /* MusicCollectionViewCell.xib in Resources */,
+				AB9504112768DFD800D1B3FA /* Hurooke.mp3 in Resources */,
 				ABE27BA4275A4E8900173138 /* MusicBox.mp3 in Resources */,
+				AB9504122768DFD800D1B3FA /* Pencil.mp3 in Resources */,
+				AB95040D2768DFD800D1B3FA /* RotaryPhoneRingtone.mp3 in Resources */,
 				AB6D5437275BC472004C3061 /* Hyoshigi.mp3 in Resources */,
 				AB6D5435275BC466004C3061 /* Xylophone.mp3 in Resources */,
+				AB95040F2768DFD800D1B3FA /* CashRegisterDrawer.mp3 in Resources */,
+				AB9503FD2768DF6F00D1B3FA /* BicycleHorn.mp3 in Resources */,
 				AB6D54BD275E41E8004C3061 /* Cat.mp3 in Resources */,
 				AB6D5433275BB3A8004C3061 /* Glocken.mp3 in Resources */,
 				ABE27B5A275A40D900173138 /* LaunchScreen.storyboard in Resources */,
 				ABE27BA6275A532B00173138 /* Flexatone.mp3 in Resources */,
+				AB9504102768DFD800D1B3FA /* Eraser.mp3 in Resources */,
 				AB6D54C1275E41F8004C3061 /* Cow.mp3 in Resources */,
 				AB6D54B7275E4158004C3061 /* Shinkansen.mp3 in Resources */,
 				AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */,
 				AB6D54BB275E41E0004C3061 /* Warbler.mp3 in Resources */,
+				AB9504152768DFD800D1B3FA /* Curtain.mp3 in Resources */,
 				ABE27B57275A40D900173138 /* Assets.xcassets in Resources */,
+				AB95040A2768DFD800D1B3FA /* PooPooCushion.mp3 in Resources */,
+				AB95040B2768DFD800D1B3FA /* QuizBuzzer.mp3 in Resources */,
 				AB6D550D2766FD09004C3061 /* ParentControl.storyboard in Resources */,
 				AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */,
 				AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */,
+				AB95040C2768DFD800D1B3FA /* CellPhoneRingtone.mp3 in Resources */,
 				AB6D5519276704CC004C3061 /* GoogleService-Info.plist in Resources */,
 				ABE27B81275A429B00173138 /* MusicPlayground.storyboard in Resources */,
+				AB9504132768DFD800D1B3FA /* ClockSecondHand.mp3 in Resources */,
+				AB95040E2768DFD800D1B3FA /* CameraFilm.mp3 in Resources */,
 				ABE27BA8275A53CA00173138 /* Vibraslap.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

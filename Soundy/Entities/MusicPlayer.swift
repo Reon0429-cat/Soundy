@@ -34,6 +34,18 @@ extension MusicPlayer {
         MusicPlayer(name: "Cow"),
         MusicPlayer(name: "Mosquito"),
         MusicPlayer(name: "Sparrow"),
+        MusicPlayer(name: "BicycleHorn"),
+        MusicPlayer(name: "CameraFilm"),
+        MusicPlayer(name: "CashRegisterDrawer"),
+        MusicPlayer(name: "CellPhoneRingtone"),
+        MusicPlayer(name: "ClockSecondHand"),
+        MusicPlayer(name: "Curtain"),
+        MusicPlayer(name: "Eraser"),
+        MusicPlayer(name: "Hurooke"),
+        MusicPlayer(name: "Pencil"),
+        MusicPlayer(name: "PooPooCushion"),
+        MusicPlayer(name: "QuizBuzzer"),
+        MusicPlayer(name: "RotaryPhoneRingtone"),
     ]
     
 }
