@@ -12,7 +12,7 @@ final class MusicPlaygroundViewController: UIViewController {
     
     @IBOutlet private weak var collectionView: UICollectionView!
     
-    private let musicPlayers = MusicPlayer.data.shuffled()
+    private let musicPlayers = MusicPlayer.data
     private var audioPlayer: AVAudioPlayer!
 
     override func viewDidLoad() {

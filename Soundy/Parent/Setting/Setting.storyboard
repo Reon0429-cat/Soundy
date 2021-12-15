@@ -15,8 +15,47 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HJr-rW-m7M">
+                                <rect key="frame" x="50" y="363" width="314" height="170"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dKb-XC-nLm">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="EPh-np-UuX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="テーマカラー">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeThemeColorButtonDidTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="zSO-GC-XN1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lO6-bX-gIQ">
+                                        <rect key="frame" x="0.0" y="90" width="314" height="80"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="音源を変更">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="changeMusicSourceButtonDidTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="JFw-2q-mxG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HJr-rW-m7M" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="4hM-wd-uOI"/>
+                            <constraint firstItem="HJr-rW-m7M" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="50" id="bhL-a0-eX2"/>
+                            <constraint firstItem="HJr-rW-m7M" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="lgG-9u-ThL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="設定" id="Mx9-PH-CvD">
                         <barButtonItem key="leftBarButtonItem" image="chevron.left" catalog="system" springLoaded="YES" id="qKO-Bg-pKn">
@@ -40,6 +79,12 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

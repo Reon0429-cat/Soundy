@@ -38,6 +38,10 @@
 		AB9504152768DFD800D1B3FA /* Curtain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504092768DFD700D1B3FA /* Curtain.mp3 */; };
 		ABAC3BAF2769FA22004333C8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC3BAE2769FA22004333C8 /* SettingViewController.swift */; };
 		ABAC3BB12769FA26004333C8 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAC3BB02769FA26004333C8 /* Setting.storyboard */; };
+		ABAC3BB3276A00E1004333C8 /* MusicSourceControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC3BB2276A00E1004333C8 /* MusicSourceControlViewController.swift */; };
+		ABAC3BB5276A00E8004333C8 /* MusicSourceControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAC3BB4276A00E8004333C8 /* MusicSourceControl.storyboard */; };
+		ABAC3BB8276A01B8004333C8 /* MusicSourceControlCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC3BB6276A01B8004333C8 /* MusicSourceControlCollectionViewCell.swift */; };
+		ABAC3BB9276A01B8004333C8 /* MusicSourceControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABAC3BB7276A01B8004333C8 /* MusicSourceControlCollectionViewCell.xib */; };
 		ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4D275A40D700173138 /* AppDelegate.swift */; };
 		ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4F275A40D700173138 /* SceneDelegate.swift */; };
 		ABE27B57275A40D900173138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE27B56275A40D900173138 /* Assets.xcassets */; };
@@ -113,6 +117,10 @@
 		AB9504092768DFD700D1B3FA /* Curtain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Curtain.mp3; sourceTree = "<group>"; };
 		ABAC3BAE2769FA22004333C8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		ABAC3BB02769FA26004333C8 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		ABAC3BB2276A00E1004333C8 /* MusicSourceControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSourceControlViewController.swift; sourceTree = "<group>"; };
+		ABAC3BB4276A00E8004333C8 /* MusicSourceControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MusicSourceControl.storyboard; sourceTree = "<group>"; };
+		ABAC3BB6276A01B8004333C8 /* MusicSourceControlCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSourceControlCollectionViewCell.swift; sourceTree = "<group>"; };
+		ABAC3BB7276A01B8004333C8 /* MusicSourceControlCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicSourceControlCollectionViewCell.xib; sourceTree = "<group>"; };
 		ABE27B4A275A40D700173138 /* Soundy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE27B4D275A40D700173138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE27B4F275A40D700173138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -237,6 +245,10 @@
 		ABAC3BAD2769F91A004333C8 /* MusicSourceControl */ = {
 			isa = PBXGroup;
 			children = (
+				ABAC3BB2276A00E1004333C8 /* MusicSourceControlViewController.swift */,
+				ABAC3BB4276A00E8004333C8 /* MusicSourceControl.storyboard */,
+				ABAC3BB6276A01B8004333C8 /* MusicSourceControlCollectionViewCell.swift */,
+				ABAC3BB7276A01B8004333C8 /* MusicSourceControlCollectionViewCell.xib */,
 			);
 			path = MusicSourceControl;
 			sourceTree = "<group>";
@@ -479,6 +491,7 @@
 				AB9504112768DFD800D1B3FA /* Hurooke.mp3 in Resources */,
 				ABE27BA4275A4E8900173138 /* MusicBox.mp3 in Resources */,
 				AB9504122768DFD800D1B3FA /* Pencil.mp3 in Resources */,
+				ABAC3BB9276A01B8004333C8 /* MusicSourceControlCollectionViewCell.xib in Resources */,
 				AB95040D2768DFD800D1B3FA /* RotaryPhoneRingtone.mp3 in Resources */,
 				AB6D5437275BC472004C3061 /* Hyoshigi.mp3 in Resources */,
 				AB6D5435275BC466004C3061 /* Xylophone.mp3 in Resources */,
@@ -503,6 +516,7 @@
 				AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */,
 				AB95040C2768DFD800D1B3FA /* CellPhoneRingtone.mp3 in Resources */,
 				AB6D5519276704CC004C3061 /* GoogleService-Info.plist in Resources */,
+				ABAC3BB5276A00E8004333C8 /* MusicSourceControl.storyboard in Resources */,
 				ABE27B81275A429B00173138 /* MusicPlayground.storyboard in Resources */,
 				AB9504132768DFD800D1B3FA /* ClockSecondHand.mp3 in Resources */,
 				AB95040E2768DFD800D1B3FA /* CameraFilm.mp3 in Resources */,
@@ -637,8 +651,10 @@
 				ABE27B9E275A47D600173138 /* MusicPlayer.swift in Sources */,
 				ABE27B7F275A429600173138 /* MusicPlaygroundViewController.swift in Sources */,
 				ABE27B98275A455E00173138 /* UICollectionViewCell+Extension.swift in Sources */,
+				ABAC3BB3276A00E1004333C8 /* MusicSourceControlViewController.swift in Sources */,
 				ABE27B96275A455E00173138 /* UIColor+Extension.swift in Sources */,
 				ABE27B92275A455E00173138 /* UITableViewCell+Extension.swift in Sources */,
+				ABAC3BB8276A01B8004333C8 /* MusicSourceControlCollectionViewCell.swift in Sources */,
 				ABAC3BAF2769FA22004333C8 /* SettingViewController.swift in Sources */,
 				ABE27B9B275A460E00173138 /* MusicCollectionViewCell.swift in Sources */,
 				ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */,

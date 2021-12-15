@@ -14,6 +14,14 @@ final class SettingViewController: UIViewController {
         
     }
     
+    @IBAction private func changeThemeColorButtonDidTapped(_ sender: Any) {
+        
+    }
+    
+    @IBAction private func changeMusicSourceButtonDidTapped(_ sender: Any) {
+        let musicSourceControlVC = MusicSourceControlViewController.instantiate()
+        present(musicSourceControlVC, animated: true)
+    }
     
     @IBAction private func backButtonDidTapped(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
