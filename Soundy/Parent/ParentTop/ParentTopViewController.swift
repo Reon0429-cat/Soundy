@@ -19,7 +19,8 @@ final class ParentTopViewController: UIViewController {
     }
     
     @IBAction private func settingButtonDidTapped(_ sender: Any) {
-        
+        let settingVC = SettingViewController.instantiate()
+        self.navigationController?.pushViewController(settingVC, animated: true)
     }
     
 }

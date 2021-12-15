@@ -36,6 +36,8 @@
 		AB9504122768DFD800D1B3FA /* Pencil.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504062768DFD700D1B3FA /* Pencil.mp3 */; };
 		AB9504132768DFD800D1B3FA /* ClockSecondHand.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504072768DFD700D1B3FA /* ClockSecondHand.mp3 */; };
 		AB9504152768DFD800D1B3FA /* Curtain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9504092768DFD700D1B3FA /* Curtain.mp3 */; };
+		ABAC3BAF2769FA22004333C8 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAC3BAE2769FA22004333C8 /* SettingViewController.swift */; };
+		ABAC3BB12769FA26004333C8 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABAC3BB02769FA26004333C8 /* Setting.storyboard */; };
 		ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4D275A40D700173138 /* AppDelegate.swift */; };
 		ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE27B4F275A40D700173138 /* SceneDelegate.swift */; };
 		ABE27B57275A40D900173138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE27B56275A40D900173138 /* Assets.xcassets */; };
@@ -109,6 +111,8 @@
 		AB9504062768DFD700D1B3FA /* Pencil.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pencil.mp3; sourceTree = "<group>"; };
 		AB9504072768DFD700D1B3FA /* ClockSecondHand.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ClockSecondHand.mp3; sourceTree = "<group>"; };
 		AB9504092768DFD700D1B3FA /* Curtain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Curtain.mp3; sourceTree = "<group>"; };
+		ABAC3BAE2769FA22004333C8 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		ABAC3BB02769FA26004333C8 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		ABE27B4A275A40D700173138 /* Soundy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soundy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE27B4D275A40D700173138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABE27B4F275A40D700173138 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 		AB6D551727670235004C3061 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				ABAC3BAE2769FA22004333C8 /* SettingViewController.swift */,
+				ABAC3BB02769FA26004333C8 /* Setting.storyboard */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -213,6 +219,7 @@
 		ABAC3BAB2769F86E004333C8 /* Parent */ = {
 			isa = PBXGroup;
 			children = (
+				ABAC3BAD2769F91A004333C8 /* MusicSourceControl */,
 				AB6D551727670235004C3061 /* Setting */,
 				AB6D55092766FC89004C3061 /* ParentTop */,
 			);
@@ -225,6 +232,13 @@
 				ABE27B7D275A423900173138 /* MusicPlayground */,
 			);
 			path = Children;
+			sourceTree = "<group>";
+		};
+		ABAC3BAD2769F91A004333C8 /* MusicSourceControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MusicSourceControl;
 			sourceTree = "<group>";
 		};
 		ABE27B41275A40D700173138 = {
@@ -480,6 +494,7 @@
 				AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */,
 				AB6D54BB275E41E0004C3061 /* Warbler.mp3 in Resources */,
 				AB9504152768DFD800D1B3FA /* Curtain.mp3 in Resources */,
+				ABAC3BB12769FA26004333C8 /* Setting.storyboard in Resources */,
 				ABE27B57275A40D900173138 /* Assets.xcassets in Resources */,
 				AB95040A2768DFD800D1B3FA /* PooPooCushion.mp3 in Resources */,
 				AB95040B2768DFD800D1B3FA /* QuizBuzzer.mp3 in Resources */,
@@ -624,6 +639,7 @@
 				ABE27B98275A455E00173138 /* UICollectionViewCell+Extension.swift in Sources */,
 				ABE27B96275A455E00173138 /* UIColor+Extension.swift in Sources */,
 				ABE27B92275A455E00173138 /* UITableViewCell+Extension.swift in Sources */,
+				ABAC3BAF2769FA22004333C8 /* SettingViewController.swift in Sources */,
 				ABE27B9B275A460E00173138 /* MusicCollectionViewCell.swift in Sources */,
 				ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */,
 				ABE27BA0275A482600173138 /* NSObjectProtocol+Extension.swift in Sources */,
