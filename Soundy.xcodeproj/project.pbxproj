@@ -21,11 +21,8 @@
 		AB6D54C1275E41F8004C3061 /* Cow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C0275E41F8004C3061 /* Cow.mp3 */; };
 		AB6D54C3275E4201004C3061 /* Mosquito.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C2275E4201004C3061 /* Mosquito.mp3 */; };
 		AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D54C4275E420B004C3061 /* Sparrow.mp3 */; };
-		AB6D550B2766FD02004C3061 /* ParentControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D550A2766FD02004C3061 /* ParentControlViewController.swift */; };
-		AB6D550D2766FD09004C3061 /* ParentControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6D550C2766FD09004C3061 /* ParentControl.storyboard */; };
-		AB6D5510276700C8004C3061 /* ParentControlUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D550F276700C8004C3061 /* ParentControlUseCase.swift */; };
-		AB6D551327670117004C3061 /* ParentControlRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D551227670117004C3061 /* ParentControlRepository.swift */; };
-		AB6D5516276701AD004C3061 /* ParentControlDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */; };
+		AB6D550B2766FD02004C3061 /* ParentTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D550A2766FD02004C3061 /* ParentTopViewController.swift */; };
+		AB6D550D2766FD09004C3061 /* ParentTop.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6D550C2766FD09004C3061 /* ParentTop.storyboard */; };
 		AB6D5519276704CC004C3061 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB6D5518276704CC004C3061 /* GoogleService-Info.plist */; };
 		AB9503FD2768DF6F00D1B3FA /* BicycleHorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9503FC2768DF6F00D1B3FA /* BicycleHorn.mp3 */; };
 		AB95040A2768DFD800D1B3FA /* PooPooCushion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AB9503FE2768DFD700D1B3FA /* PooPooCushion.mp3 */; };
@@ -97,11 +94,8 @@
 		AB6D54C0275E41F8004C3061 /* Cow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cow.mp3; sourceTree = "<group>"; };
 		AB6D54C2275E4201004C3061 /* Mosquito.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mosquito.mp3; sourceTree = "<group>"; };
 		AB6D54C4275E420B004C3061 /* Sparrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sparrow.mp3; sourceTree = "<group>"; };
-		AB6D550A2766FD02004C3061 /* ParentControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlViewController.swift; sourceTree = "<group>"; };
-		AB6D550C2766FD09004C3061 /* ParentControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParentControl.storyboard; sourceTree = "<group>"; };
-		AB6D550F276700C8004C3061 /* ParentControlUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlUseCase.swift; sourceTree = "<group>"; };
-		AB6D551227670117004C3061 /* ParentControlRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlRepository.swift; sourceTree = "<group>"; };
-		AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentControlDataStore.swift; sourceTree = "<group>"; };
+		AB6D550A2766FD02004C3061 /* ParentTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTopViewController.swift; sourceTree = "<group>"; };
+		AB6D550C2766FD09004C3061 /* ParentTop.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParentTop.storyboard; sourceTree = "<group>"; };
 		AB6D5518276704CC004C3061 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AB9503FC2768DF6F00D1B3FA /* BicycleHorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BicycleHorn.mp3; sourceTree = "<group>"; };
 		AB9503FE2768DFD700D1B3FA /* PooPooCushion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PooPooCushion.mp3; sourceTree = "<group>"; };
@@ -200,37 +194,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AB6D55092766FC89004C3061 /* ParentControl */ = {
+		AB6D55092766FC89004C3061 /* ParentTop */ = {
 			isa = PBXGroup;
 			children = (
-				AB6D550A2766FD02004C3061 /* ParentControlViewController.swift */,
-				AB6D550C2766FD09004C3061 /* ParentControl.storyboard */,
+				AB6D550A2766FD02004C3061 /* ParentTopViewController.swift */,
+				AB6D550C2766FD09004C3061 /* ParentTop.storyboard */,
 			);
-			path = ParentControl;
-			sourceTree = "<group>";
-		};
-		AB6D550E27670094004C3061 /* UseCases */ = {
-			isa = PBXGroup;
-			children = (
-				AB6D550F276700C8004C3061 /* ParentControlUseCase.swift */,
-			);
-			path = UseCases;
-			sourceTree = "<group>";
-		};
-		AB6D551127670107004C3061 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-				AB6D551227670117004C3061 /* ParentControlRepository.swift */,
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		AB6D5514276701A3004C3061 /* DataStores */ = {
-			isa = PBXGroup;
-			children = (
-				AB6D5515276701AD004C3061 /* ParentControlDataStore.swift */,
-			);
-			path = DataStores;
+			path = ParentTop;
 			sourceTree = "<group>";
 		};
 		AB6D551727670235004C3061 /* Setting */ = {
@@ -238,6 +208,23 @@
 			children = (
 			);
 			path = Setting;
+			sourceTree = "<group>";
+		};
+		ABAC3BAB2769F86E004333C8 /* Parent */ = {
+			isa = PBXGroup;
+			children = (
+				AB6D551727670235004C3061 /* Setting */,
+				AB6D55092766FC89004C3061 /* ParentTop */,
+			);
+			path = Parent;
+			sourceTree = "<group>";
+		};
+		ABAC3BAC2769F87E004333C8 /* Children */ = {
+			isa = PBXGroup;
+			children = (
+				ABE27B7D275A423900173138 /* MusicPlayground */,
+			);
+			path = Children;
 			sourceTree = "<group>";
 		};
 		ABE27B41275A40D700173138 = {
@@ -265,14 +252,10 @@
 		ABE27B4C275A40D700173138 /* Soundy */ = {
 			isa = PBXGroup;
 			children = (
-				ABE27BA1275A4BF700173138 /* Entities */,
-				AB6D5514276701A3004C3061 /* DataStores */,
-				AB6D551127670107004C3061 /* Repositories */,
-				AB6D550E27670094004C3061 /* UseCases */,
 				ABE27BA2275A4E7500173138 /* SoundSource */,
-				AB6D55092766FC89004C3061 /* ParentControl */,
-				ABE27B7D275A423900173138 /* MusicPlayground */,
-				AB6D551727670235004C3061 /* Setting */,
+				ABE27BA1275A4BF700173138 /* Entities */,
+				ABAC3BAC2769F87E004333C8 /* Children */,
+				ABAC3BAB2769F86E004333C8 /* Parent */,
 				ABE27B4D275A40D700173138 /* AppDelegate.swift */,
 				ABE27B4F275A40D700173138 /* SceneDelegate.swift */,
 				AB6D5518276704CC004C3061 /* GoogleService-Info.plist */,
@@ -500,7 +483,7 @@
 				ABE27B57275A40D900173138 /* Assets.xcassets in Resources */,
 				AB95040A2768DFD800D1B3FA /* PooPooCushion.mp3 in Resources */,
 				AB95040B2768DFD800D1B3FA /* QuizBuzzer.mp3 in Resources */,
-				AB6D550D2766FD09004C3061 /* ParentControl.storyboard in Resources */,
+				AB6D550D2766FD09004C3061 /* ParentTop.storyboard in Resources */,
 				AB6D5439275BC478004C3061 /* Horagai.mp3 in Resources */,
 				AB6D54C5275E420B004C3061 /* Sparrow.mp3 in Resources */,
 				AB95040C2768DFD800D1B3FA /* CellPhoneRingtone.mp3 in Resources */,
@@ -639,19 +622,16 @@
 				ABE27B9E275A47D600173138 /* MusicPlayer.swift in Sources */,
 				ABE27B7F275A429600173138 /* MusicPlaygroundViewController.swift in Sources */,
 				ABE27B98275A455E00173138 /* UICollectionViewCell+Extension.swift in Sources */,
-				AB6D551327670117004C3061 /* ParentControlRepository.swift in Sources */,
 				ABE27B96275A455E00173138 /* UIColor+Extension.swift in Sources */,
 				ABE27B92275A455E00173138 /* UITableViewCell+Extension.swift in Sources */,
 				ABE27B9B275A460E00173138 /* MusicCollectionViewCell.swift in Sources */,
 				ABE27B4E275A40D700173138 /* AppDelegate.swift in Sources */,
 				ABE27BA0275A482600173138 /* NSObjectProtocol+Extension.swift in Sources */,
-				AB6D5516276701AD004C3061 /* ParentControlDataStore.swift in Sources */,
-				AB6D5510276700C8004C3061 /* ParentControlUseCase.swift in Sources */,
 				ABE27B97275A455E00173138 /* UICollectionView+Extension.swift in Sources */,
 				ABE27B8F275A455E00173138 /* UIViewController+Extension.swift in Sources */,
 				ABE27B94275A455E00173138 /* UITableView+Extension.swift in Sources */,
 				ABE27B95275A455E00173138 /* UIImage+Extension.swift in Sources */,
-				AB6D550B2766FD02004C3061 /* ParentControlViewController.swift in Sources */,
+				AB6D550B2766FD02004C3061 /* ParentTopViewController.swift in Sources */,
 				ABE27B50275A40D700173138 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

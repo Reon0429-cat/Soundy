@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: scene)
         self.window = window
         window.makeKeyAndVisible()
-        let rootVC = ParentControlViewController.instantiate()
+        let rootVC = ParentTopViewController.instantiate()
         window.rootViewController = rootVC
     }
 
